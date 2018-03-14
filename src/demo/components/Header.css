@@ -1,0 +1,23 @@
+
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 70px;
+  width: auto;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0;
+}
+
+.Header__content {
+  margin-left: 20px;
+}

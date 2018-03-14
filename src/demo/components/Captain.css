@@ -1,0 +1,63 @@
+
+
+.Captain {
+  width: 550px;
+  height: 100px;
+  margin: 20px 0;
+}
+
+.Captain__button {
+  width: 100%;
+  height: 100%;
+  background-color: #BF4B4B;
+  border: 1px solid #F2A663;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.Captain__button-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.Captain__button-content ul {
+  list-style-type: none;
+  text-align: left;
+  flex-basis: 180px;
+}
+
+.Captain__button-captain-info {
+  display: flex;
+}
+
+.Captain__button-header {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Captain__button-header h2, .Captain__button-header p {
+  margin: 0;
+}
+
+.Captain__button-img {
+  height: 80px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.Captain__button:hover {
+  background-color: #3388BD;
+  border: 1px solid #D2F25C;
+}
+
+.Captain__button--selected {
+  background-color: #41AEF2;
+}
