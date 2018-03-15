@@ -7,7 +7,7 @@ A very simple checkbox that supports checked, unchecked, and indeterminite state
 
 ## Installation
 ```bash
-npm install react-select-all
+npm install @tgfbikes/react-select-all
 ```
 
 ## Usage
